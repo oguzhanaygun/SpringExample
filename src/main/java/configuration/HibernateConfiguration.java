@@ -47,9 +47,9 @@ public class HibernateConfiguration {
 
 	private DataSource dataSourceInitialize() {
 		DriverManagerDataSource dataSource=new DriverManagerDataSource();
-		dataSource.setUrl("jdbc:mysql://localhost:3306/e-ticaret");
+		dataSource.setUrl("jdbc:mysql://localhost:3306/HRProject");
 		dataSource.setDriverClassName(" com.mysql.jdbc.Driver");
-		dataSource.setPassword("");
+		dataSource.setPassword("1234");
 		dataSource.setUsername("root");
 		
 		// TODO Auto-generated method stub
