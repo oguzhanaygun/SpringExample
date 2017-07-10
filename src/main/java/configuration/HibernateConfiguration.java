@@ -51,7 +51,7 @@ public class HibernateConfiguration {
 		dataSource.setDriverClassName(" com.mysql.jdbc.Driver");
 
 		dataSource.setPassword("");
-		dataSource.setUsername("");
+		dataSource.setUsername("root");
 
 		
 		// TODO Auto-generated method stub
