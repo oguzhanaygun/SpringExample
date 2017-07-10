@@ -50,8 +50,8 @@ public class HibernateConfiguration {
 		dataSource.setUrl("jdbc:mysql://localhost:3306/HRProject");
 		dataSource.setDriverClassName(" com.mysql.jdbc.Driver");
 
-		dataSource.setPassword("1234");
-		dataSource.setUsername("root");
+		dataSource.setPassword("");
+		dataSource.setUsername("");
 
 		
 		// TODO Auto-generated method stub
